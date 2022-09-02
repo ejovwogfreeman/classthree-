@@ -297,9 +297,10 @@
 
 // objects
 // function
-// conditionals
-// loops and switch statement 
+// conditionals(if, else if, else and switch statement)
+// loops (for, while)
 // higher order array method
+// oop (funtions methods and classes and prototype methods)
 
 // let nums = [20, 54, 78, 82]
 
@@ -335,28 +336,28 @@
 
 // console.log(student)
 
-let student = {
-    name: 'rita', 
-    surname: 'frank', 
-    gender: 'female', 
-    class: '400L', 
-    hobby: ['singing', 'cooking', 'coding'], 
-    children: [
-        {
-            name: 'mark', 
-            age: 3
-        }, 
-        {
-            name: 'mirabella', 
-            age: 2
-        }
-    ], 
-    address: {
-        state: 'delta', 
-        country: 'nigeria', 
-        street: '1st lane road'
-    }
-} 
+// let student = {
+//     name: 'rita', 
+//     surname: 'frank', 
+//     gender: 'female', 
+//     class: '400L', 
+//     hobby: ['singing', 'cooking', 'coding'], 
+//     children: [
+//         {
+//             name: 'mark', 
+//             age: 3
+//         }, 
+//         {
+//             name: 'mirabella', 
+//             age: 2
+//         }
+//     ], 
+//     address: {
+//         state: 'delta', 
+//         country: 'nigeria', 
+//         street: '1st lane road'
+//     }
+// } 
 
 // console.log(student.hobby[1][student.hobby[1].length-1])
 // console.log(student.address.street.split(' ')[2])
@@ -367,3 +368,314 @@ let student = {
 // student.children.splice(1, 0, {name: 'john', age: 2.5})
 // console.log(student.children)
 // console.log(student)
+
+
+// functions functionName(){
+//     codeblock;
+// } 
+
+// function hello() {
+//     console.log('hello john')
+// }
+
+// hello()
+
+// function greet(){
+//     console.log('good morinig sir')
+//     // alert('good morinig sir')
+// }
+
+// greet()
+
+// function greet(name, time) {
+//     console.log(`good ${time} ${name}, welcome`)
+// }
+
+// greet('godbless', 'afternoon')
+
+// function greet(name='godbless', time="morning") {
+//     console.log(`good ${time} ${name}, welcome`)
+// }
+
+// greet('freeman', 'afternoon')
+
+// function greet(name='godbless', time="morning") {
+//     return `good ${time} ${name}, welcome`
+// }
+
+// console.log(greet('freeman', 'afternoon'))
+
+// function clacArea(radius=1) {
+//     let value = 3.14 * (radius)**2
+//     return value
+// }
+
+// let area;
+
+// area = clacArea()
+
+// console.log('the area is: ' + area)
+
+
+// function aor(l=1, b=1) {
+//     return l * b
+// }
+
+// let area; 
+
+// area = aor(6, 3)
+
+// console.log(area)
+
+
+// function toCelcius(far) {
+//     let val = 5/9
+//     let diff = far - 32
+//     let cel = val * diff
+//     return cel;
+// }
+
+// let celcius = toCelcius(209)
+
+// console.log(celcius)
+
+// function clacArea(a, b, c){
+//     let s = (a+b+c)/2
+//     let area = (s*(s-a)*(s-b)*(s-c))**0.5
+//     return area;
+// }
+
+// let triangle = clacArea(6, 9, 7)
+
+// console.log(triangle)
+
+
+// conditionals
+
+// let color = 'red';
+
+// console.log(color==='red' ? 'the color is red' : 'the color is not red')
+
+// if(color==='red') {
+//     console.log('the color is red')
+// }else {
+//     console.log('the color is not red')
+// }
+
+// let age = 20;
+
+// if(age < 20) {
+//     console.log('you are too young')
+// }
+
+// let age = 20;
+
+// if(age == 20) {
+//     console.log('you are too young')
+// }else {
+//     console.log('congrats')
+// }
+
+
+// let color = 'indigo';
+
+// if(color==='red') {
+//     console.log('danger')
+// }else if(color==='green'){
+//     console.log('success')
+// }else if(color==='blue'){
+//     console.log('primary')
+// }else if(color==='yellow'){
+//     console.log('warning')
+// }else {
+//     console.log('not a match')
+// } 
+
+
+// let color = 'indix';
+
+// switch(color){
+//     case 'red':
+//         console.log('the color is red')
+//         break;
+//     case 'blue':
+//         console.log('the color is blue')   
+//         break;
+//     default:
+//         console.log('not a match')       
+// }
+
+// loops
+
+// for(let i=1; i<=20; i++) {
+//     console.log(i + ': i am sorry')
+// }
+
+
+// let x = 1;
+
+// while(x<=20){
+//     console.log(x)
+//     x++;
+// }
+
+
+// higher order array method
+// reduce
+// sort
+
+// array iteration e.g
+// forEach
+// for of
+// map
+// filter
+
+const companies = [
+    {
+        id: 1,
+        name: 'google',
+        staffs: 23, 
+        startYear: 1974, 
+        isTech: true
+    },
+    {
+        id: 2,
+        name: 'facebook',
+        staffs: 13, 
+        startYear: 2004, 
+        isTech: true
+    }, 
+    {
+        id: 3,
+        name: 'gucci',
+        staffs: 37, 
+        startYear: 1990, 
+        isTech: false
+    }, 
+    {
+        id: 4,
+        name: 'amazon',
+        staffs: 15, 
+        startYear: 1996, 
+        isTech: true
+    }, 
+    {
+        id: 5,
+        name: 'microsoft',
+        staffs: 25, 
+        startYear: 1975, 
+        isTech: true
+    }, 
+    {
+        id: 6,
+        name: 'starlink',
+        staffs: 29, 
+        startYear: 1999, 
+        isTech: true
+    }, 
+    {
+        id: 7,
+        name: 'Nadia',
+        staffs: 30, 
+        startYear: 2005, 
+        isTech: false
+    }, 
+]
+
+// looping through the array
+// for(let i=0; i<companies.length; i++) {
+//     console.log(companies[i].name) 
+// }
+
+// returning only tech companies using for loop 
+// for(let i=0; i<companies.length; i++) {
+//     if(companies[i].isTech===true){
+//         console.log(companies[i].name)
+//     }    
+// }
+
+
+// companies.forEach(function(company){
+//     console.log(company)
+// })
+
+// for(let company of companies){
+//     console.log(company)
+// }
+
+// companies.map(function(company){
+//     console.log(company)
+// })
+
+// companies.filter(function(company){
+//     if(company.isTech===true){
+//         console.log(company)
+//     }
+// })
+
+// questions
+// 1) return only the tech companies
+// 2) claculate the total number of staffs in all the companies
+// 3) return companies that starts before 2000
+// 4) retrun the sum of staffs in the company with the highest number of staffs and the lowest of staffs
+// 5) return the companies with number of staffs greater than 30
+
+
+// function greet(){
+//     console.log('hello today is a great day')
+// }
+
+// greet()
+
+
+// let greet = () => {
+//     console.log('hello today is a nice day')
+// }
+
+// greet()
+
+// function greet(name, time){
+//     console.log(`hello ${name} good ${time}`)
+// }
+
+// greet('godbless', 'morning')
+
+
+// let greetMe = (name, time) => {
+//     console.log(`hello ${name} good ${time} today`)
+// }
+
+// greetMe('freeman', 'evening')
+
+// solutions to questions
+// let techComp = companies.filter(company => company.isTech===true)
+// console.log(techComp)
+
+// let staffs = companies.map(company => company.staffs)
+// let staffsaTotal = staffs.reduce((x, y)=> x+y)
+// console.log(staffsaTotal)
+
+// let oldComapnies = companies.filter(company => company.startYear < 2000)
+// console.log(oldComapnies)
+
+// let staffs = companies.map(company=> company.staffs)
+// console.log(staffs)
+// let sorted = staffs.sort((a, b)=> a - b)
+
+// console.log(sorted)
+
+// let sum = sorted[0] + sorted[sorted.length-1]
+
+// let added = staffs.reduce((y, z)=> y+z)
+// console.log(added)
+
+// let wmallCompanies = companies.filter(company=> company.staffs < 30)
+// console.log(wmallCompanies)
+
+
+// assignment
+
+// alert('hello')
+
+let name = prompt('hello what is your name')
+alert(name + ' you are welcome' ) 
