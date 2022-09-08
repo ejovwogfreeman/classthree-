@@ -530,57 +530,57 @@
 // map
 // filter
 
-const companies = [
-    {
-        id: 1,
-        name: 'google',
-        staffs: 23, 
-        startYear: 1974, 
-        isTech: true
-    },
-    {
-        id: 2,
-        name: 'facebook',
-        staffs: 13, 
-        startYear: 2004, 
-        isTech: true
-    }, 
-    {
-        id: 3,
-        name: 'gucci',
-        staffs: 37, 
-        startYear: 1990, 
-        isTech: false
-    }, 
-    {
-        id: 4,
-        name: 'amazon',
-        staffs: 15, 
-        startYear: 1996, 
-        isTech: true
-    }, 
-    {
-        id: 5,
-        name: 'microsoft',
-        staffs: 25, 
-        startYear: 1975, 
-        isTech: true
-    }, 
-    {
-        id: 6,
-        name: 'starlink',
-        staffs: 29, 
-        startYear: 1999, 
-        isTech: true
-    }, 
-    {
-        id: 7,
-        name: 'Nadia',
-        staffs: 30, 
-        startYear: 2005, 
-        isTech: false
-    }, 
-]
+// const companies = [
+//     {
+//         id: 1,
+//         name: 'google',
+//         staffs: 23, 
+//         startYear: 1974, 
+//         isTech: true
+//     },
+//     {
+//         id: 2,
+//         name: 'facebook',
+//         staffs: 13, 
+//         startYear: 2004, 
+//         isTech: true
+//     }, 
+//     {
+//         id: 3,
+//         name: 'gucci',
+//         staffs: 37, 
+//         startYear: 1990, 
+//         isTech: false
+//     }, 
+//     {
+//         id: 4,
+//         name: 'amazon',
+//         staffs: 15, 
+//         startYear: 1996, 
+//         isTech: true
+//     }, 
+//     {
+//         id: 5,
+//         name: 'microsoft',
+//         staffs: 25, 
+//         startYear: 1975, 
+//         isTech: true
+//     }, 
+//     {
+//         id: 6,
+//         name: 'starlink',
+//         staffs: 29, 
+//         startYear: 1999, 
+//         isTech: true
+//     }, 
+//     {
+//         id: 7,
+//         name: 'Nadia',
+//         staffs: 30, 
+//         startYear: 2005, 
+//         isTech: false
+//     }, 
+// ]
 
 // looping through the array
 // for(let i=0; i<companies.length; i++) {
@@ -677,5 +677,164 @@ const companies = [
 
 // alert('hello')
 
-let name = prompt('hello what is your name')
-alert(name + ' you are welcome' ) 
+// let name = prompt('hello what is your name')
+// alert(name + ' you are welcome' ) 
+
+// create a system 
+
+
+
+// week three of js
+
+
+// let date = new Date().toDateString() + ' | ' + new Date().toLocaleTimeString()
+// console.log(date)
+// if(date < 12) {
+//     console.log('good morining')
+// }else if(date < 16) {
+//     console.log('good afternoon')
+// }else if(date < 21) {
+//     console.log('good evening')
+// }else {
+//     console.log('good night')
+// }
+
+// let person = {
+//     name: 'godbless',
+//     surname: 'ejovwo',
+//     dept: 'web dev',
+//     isMarried: true,
+//     age: 30,
+//     hobby: ['coding', 'eating', 'running'],
+//     getPerson(){
+//         return `${this.name} is ${this.age} year old`
+//     }
+// }
+
+// console.log(person.getPerson())
+
+
+// function Person(name, age, hobby) {
+//     this.name = name;
+//     this.age = age;
+//     this.hobby = hobby;
+// } 
+
+// const person1 = new Person('godbless', '30', 'coding') 
+// const person2 = new Person('marvellous', '18', 'watching romantic film')
+
+// console.log(person1)
+// console.log(person2)
+
+// class Person{
+//     constructor(name, age, hobby){
+//         this.name = name;
+//         this.age = age;
+//         this.hobby = hobby;
+//     }
+// }
+
+// const person1 = new Person('gb', 30, 'eating')
+// const person2 = new Person('lc', 30, 'eating')
+// const person3 = new Person('fm', 30, 'eating')
+
+// let people = [person1, person2, person3] 
+
+// for(let i=0; i<people.length; i++){
+//     console.log(people[i].name)
+// }
+
+
+// class Person{
+//     constructor(name, age, hobby){
+//         this.name = name;
+//         this.age = age;
+//         this.hobby = hobby;
+//     }
+//     getInfo(){
+//         return `${this.name} is ${this.age}years old`
+//     }
+// }
+
+// const person1 = new Person('gb', 30, 'drumming')
+
+// console.log(person1.getInfo())
+
+
+// class TheArray{
+//     constructor(arr) {
+//         this.arr = arr;
+//     }
+//     getSum(){
+//         return this.arr.reduce((a,b)=> a+b)
+//     }
+// }
+
+// const arr1 = new TheArray([20, 30, 25, 8, 19])
+// const arr2 = new TheArray([12, 4, 8, 90])
+
+// console.log(arr2.getSum())
+
+// class Temperature{
+//     constructor(celcius) {
+//         this.celcius = celcius;
+//     }
+//     toFarenheit() {
+//         return ((9/5) * (this.celcius) + (32))
+//     }
+// }
+
+// const tem1 = new Temperature(53)
+
+// console.log(tem1.toFarenheit())
+
+
+// create a method that will convert temperature in farenheit to celcius
+
+// class inheritance
+
+// class Car{
+//     constructor(brand){
+//         this.brand = brand;
+//     }
+//     getInfo(){
+//         return `${this.brand} is a good car`
+//     }
+// }
+
+// class Toyota extends Car{
+//     constructor(brand,model){
+//         super(brand);
+//         this.model = model;
+//     }
+//     getNew(){
+//         return `${this.model} is good model of ${this.brand}`
+//     }
+// }
+
+
+// const car = new Toyota('toyota', 'camry')
+
+// console.log(car.getNew())
+
+
+class Person{
+    constructor(name){
+        this.name = name;
+    }
+}
+
+class Student extends Person {
+    constructor(name, department) {
+        super(name);
+        this.department = department;
+    }
+    getStudent(){
+        return `${this.name} is in ${this.department} department`
+    }
+}
+
+
+const student = new Student('godbless', 'web dev')
+
+console.log(student.getStudent())

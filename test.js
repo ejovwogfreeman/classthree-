@@ -2,7 +2,7 @@
 
 // document.write('hello...you are weolcome to the class')
 
-var text = 'today is a good day at school my boss took me for a lunch date'
+// var text = 'today is a good day at school my boss took me for a lunch date'
 
 // console.log(text)
 // console.log(text)
@@ -117,5 +117,44 @@ var text = 'today is a good day at school my boss took me for a lunch date'
 
 // console.log(20%8)
 
+// alert('hello')
+
+// let rooster = [];
+
+// function addNames() {
+//     let name = prompt('what name would you like to add?')
+//     rooster.push(name);
+// }
+
+// function removeNames() {
+//     let name = prompt('what name would you like to remove?')
+//     rooster.splice(rooster.indexOf(name), 1)
+// }
+
+// function displayNames() {
+//     alert(rooster)
+// }
+
+// let question = prompt('would you like to register? y/n')
+// let reply = null;
+
+// if(question === 'y') {
+//     while(reply !== 'quit') {
+//         reply = prompt('would you like to add, remove, display or quit?')
+//         if(reply === 'add') {
+//             addNames()
+//         }else if (reply === 'remove') {
+//             removeNames()
+//         }else if(reply === 'display') {
+//             displayNames()
+//         }else if(reply === 'quit'){
+//             alert('thanks for participating')
+//         }else {
+//             alert('not recognized')
+//         }
+//     }
+// }else {
+//     alert('thanks for participating...refresh to start again')
+// }
 
 
