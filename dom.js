@@ -69,35 +69,51 @@
 //     alert(date)
 // })
 
+// let inc = document.getElementById('inc')
+// let dec = document.getElementById('dec')
+// let res = document.getElementById('res')
+// let num = document.getElementById('num')
 
-let inc = document.getElementById('inc')
-let dec = document.getElementById('dec')
-let res = document.getElementById('res')
-let num = document.getElementById('num')
+// var count = 0;
 
-var count = 0;
+// inc.addEventListener('click', ()=> {
+//     count++
+//     num.textContent = count; 
+//     if(count > 0) {
+//         num.style.color = 'green'
+//     }
+// })
 
-inc.addEventListener('click', ()=> {
-    count++
-    num.textContent = count; 
-    if(count > 0) {
-        num.style.color = 'green'
-    }
-})
+// dec.addEventListener('click', ()=> {
+//     count--
+//     num.textContent = count;
+//     if(count < 0) {
+//         num.style.color = 'red'
+//     }
+// })
 
-dec.addEventListener('click', ()=> {
-    count--
-    num.textContent = count;
-    if(count < 0) {
-        num.style.color = 'red'
-    }
-})
+// res.addEventListener('click', ()=> {
+//     count = 0;
+//     num.textContent = count;
+//     if(count == 0) {
+//         num.style.color = 'black'
+//     }
+// })
 
-res.addEventListener('click', ()=> {
-    count = 0;
-    num.textContent = count;
-    if(count == 0) {
-        num.style.color = 'black'
-    }
-})
+// let on = document.querySelector('#on')
+// let off = document.querySelector('#off')
+// let bulb = document.querySelector('#img') 
+// let body = document.querySelector('#body')
+// let txt = document.querySelector('#txt')
 
+// on.addEventListener('click', ()=>{
+//     bulb.setAttribute('src', 'bulbon.gif')
+//     body.style.background = 'black';
+//     txt.style.color = 'white'
+// })
+
+// off.addEventListener('click', ()=>{
+//     bulb.setAttribute('src', 'bulboff.gif')
+//     body.style.background = 'white';
+//     txt.style.color = 'black'
+// })

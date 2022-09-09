@@ -818,23 +818,23 @@
 // console.log(car.getNew())
 
 
-class Person{
-    constructor(name){
-        this.name = name;
-    }
-}
+// class Person{
+//     constructor(name){
+//         this.name = name;
+//     }
+// }
 
-class Student extends Person {
-    constructor(name, department) {
-        super(name);
-        this.department = department;
-    }
-    getStudent(){
-        return `${this.name} is in ${this.department} department`
-    }
-}
+// class Student extends Person {
+//     constructor(name, department) {
+//         super(name);
+//         this.department = department;
+//     }
+//     getStudent(){
+//         return `${this.name} is in ${this.department} department`
+//     }
+// }
 
 
-const student = new Student('godbless', 'web dev')
+// const student = new Student('godbless', 'web dev')
 
-console.log(student.getStudent())
+// console.log(student.getStudent())

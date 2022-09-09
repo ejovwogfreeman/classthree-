@@ -156,5 +156,3 @@
 // }else {
 //     alert('thanks for participating...refresh to start again')
 // }
-
-
