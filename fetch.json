@@ -1,0 +1,49 @@
+{
+    "users" : [
+        {
+            "id": 1,
+            "name": "freeman",
+            "surname": "mark",
+            "age": 30,
+            "isMarried": true
+        },
+        {
+            "id": 2,
+            "name": "freeman",
+            "surname": "mark",
+            "age": 30,
+            "isMarried": true
+        },
+        {
+            "id": 3,
+            "name": "freeman",
+            "surname": "mark",
+            "age": 30,
+            "isMarried": true
+        }
+    ],
+    
+    "posts" : [
+        {
+            "id": 1,
+            "name": "freeman",
+            "surname": "mark",
+            "age": 30,
+            "isMarried": true
+        },
+        {
+            "id": 2,
+            "name": "freeman",
+            "surname": "mark",
+            "age": 30,
+            "isMarried": true
+        },
+        {
+            "id": 3,
+            "name": "freeman",
+            "surname": "mark",
+            "age": 30,
+            "isMarried": true
+        }
+    ]
+}
