@@ -838,3 +838,13 @@
 // const student = new Student('godbless', 'web dev')
 
 // console.log(student.getStudent())
+
+const age = 20;
+
+// if(age > 15) {
+//     console.log('old guy')
+// }else {
+//     console.log('too young')
+// }
+
+console.log(age>15 ? 'old guy' : 'too young')
